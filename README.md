@@ -1,4 +1,4 @@
-Peripheral Identification and Operations Project
+# Peripheral Identification and Operations Project
 
 # Overview
 
