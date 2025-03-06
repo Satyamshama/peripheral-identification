@@ -1,10 +1,10 @@
 Peripheral Identification and Operations Project
 
-Overview
+# Overview
 
 This project is designed to detect and identify peripheral devices connected to a Linux system, including USB, Bluetooth, and Wi-Fi devices. It also provides operations such as mounting, unmounting, ejecting, and configuring Bluetooth devices.
 
-Features
+# Features
 
 Peripheral Detection
 
@@ -14,13 +14,13 @@ Device Information Retrieval
 
 Get detailed information about detected peripherals.
 
-Device Operations
+# Device Operations
 
 Mount, unmount, and eject devices.
 
 Configure Bluetooth devices (pair, trust, and connect).
 
-Technologies Used
+# Technologies Used
 
 Programming Language: C
 
@@ -28,7 +28,7 @@ Linux Utilities: lsusb, bluetoothctl, iwconfig, mount, umount, eject
 
 Build Tool: gcc
 
-Project Structure
+# Project Structure
 
 ├── include/
 │   ├── device_detection.h      # Function declarations for device detection
@@ -44,7 +44,7 @@ Project Structure
 ├── README.md                   # Project documentation
 ├── Makefile                     # Compilation instructions
 
-Installation & Usage
+# Installation & Usage
 
 1. Clone the Repository
 
@@ -59,7 +59,7 @@ gcc -o peripheral main.c src/*.c -I include
 
 ./peripheral
 
-Team Members
+# Team Members
 
 Satyam Sharma (B22CS047)
 
