@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "device_operations.h": "c",
+        "device_detection.h": "c",
+        "device_info.h": "c"
+    }
+}
